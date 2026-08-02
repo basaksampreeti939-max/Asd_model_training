@@ -39,3 +39,22 @@ Performs live facial expression detection and emotion recognition using a webcam
 The class diagram outlines the core classes in the system, their attributes and relationships between them.
 
 <img width="975" height="837" alt="Image" src="https://github.com/user-attachments/assets/41632615-5464-4d77-bea5-eec387f7f861" />
+
+## Model Architecture (FER2013 Dataset)
+
+The proposed model is a Convolutional Neural Network (CNN) designed for facial emotion recognition using the FER2013 dataset. The input is a 48 × 48 grayscale facial image, which undergoes preprocessing, including resizing and normalization. The CNN consists of multiple Convolutional layers with ReLU activation to extract facial features, followed by Max Pooling layers to reduce spatial dimensions and Dropout layers to minimize overfitting. The extracted features are then flattened and passed through Fully Connected (Dense) layers for classification. Finally, a Softmax output layer predicts one of the seven facial emotions: Angry, Disgust, Fear, Happy, Sad, Surprise, or Neutral. This architecture enables accurate emotion recognition and serves as the core component for facial expression analysis in the ASD early screening system.
+
+## Future Work
+There are various ways in which the current project can be improved to increase the precision, usability, and 
+practicality of the system:
+* Training and comparing other machine learning algorithms like XGBoost, LightGBM, and Artificial Neural Network 
+(ANN).
+* Incorporating larger and more diverse datasets with the addition of data from various countries, age groups, 
+and healthcare institutes.
+* Conducting feature selection and hyperparameter tuning to further increase classification performance.
+* Developing a web/mobile application that will allow parents and healthcare practitioners to conduct ASD 
+screening quickly.
+* Developing a multimodal ASD detector using image-based, speech-based, and facial expression analysis along 
+with questionnaire-based features.
+* Validating the current model on clinical real-world datasets and conducting prospective studies.
+These enhancements would allow the model to become more reliable and accurate.
