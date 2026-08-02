@@ -9,3 +9,5 @@ ASD Early Screening System is an AI-powered application designed to support the 
 Face Detection:
 
 Automatically detects and extracts the face from an uploaded image or live webcam feed using computer vision techniques.
+
+<img width="975" height="837" alt="Image" src="https://github.com/user-attachments/assets/41632615-5464-4d77-bea5-eec387f7f861" />
