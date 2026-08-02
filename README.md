@@ -58,3 +58,27 @@ screening quickly.
 with questionnaire-based features.
 * Validating the current model on clinical real-world datasets and conducting prospective studies.
 These enhancements would allow the model to become more reliable and accurate.
+
+ ## Result
+evelopment and evaluation of the machine learning classifiers for the Autism Spectrum Disorder (ASD) detection 
+odel were successful. Missing value imputation, categorical
+ariable encoding, and feature scaling processes were conducted during data preprocessing to enhance classifier 
+erformance. Exploratory Data Analysis (EDA) enabled finding
+ome important connections between the features. Several classifiers were trained and compared in order to find 
+ut which one could be used for ASD prediction with the highest
+fficiency. It turned out that the chosen model performed very well on the testing data set by providing high 
+lassification accuracy as well as good values of precision,
+ecall, and F1-score. Confusion matrix and ROC curve analysis proved that the classifier was able to 
+ifferentiate ASD-positive and ASD-negative samples efficiently.
+
+## Conclusion
+It has been illustrated from this project that machine learning algorithms can be used efficiently for detecting 
+Autism Spectrum Disorder at an early stage based on behavioral,
+demographic, and clinical variables. As a result of preparing the dataset and developing different classifiers, 
+the final classifier showed good prediction capability. The
+significance of appropriate data preparation, feature selection, and model development for constructing an 
+efficient diagnosis system has been shown.
+This developed model can act as a supporting decision-making mechanism for medical professionals for detecting 
+the children who are at risk of having autism at an early stage.
+Although this model cannot be considered as a replacement for clinical diagnosis, it can help in identifying the 
+children who need further medical assistance.
