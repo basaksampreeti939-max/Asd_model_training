@@ -1,4 +1,5 @@
 Introduction 
+
 Designed and developed an AI-based ASD early screening system that analyzes facial expressions to detect emotional and behavioral patterns associated with Autism Spectrum Disorder. Built using Python, TensorFlow, OpenCV, Streamlit, and EfficientNet, the system provides a quick, non-invasive preliminary screening tool to support early identification and timely intervention.
 
 🧠 Project Overview
@@ -41,3 +42,88 @@ Detected emotion
 Confidence score
 ASD screening likelihood
 Screening recommendation
+
+🧠 System Workflow
+                User Input
+                    │
+                    ▼
+        Upload Image / Live Webcam
+                    │
+                    ▼
+      Face Detection (MediaPipe/OpenCV)
+                    │
+                    ▼
+         Face Cropping & Alignment
+                    │
+                    ▼
+          Image Preprocessing
+    • Resize (48×48)
+    • Grayscale Conversion
+    • Normalization
+                    │
+                    ▼
+        Emotion Recognition Model
+    (CNN / MobileNetV2 / ResNet50)
+                    │
+                    ▼
+      Emotion Classification
+   ┌──────────────────────────────┐
+   │ Angry                        │
+   │ Disgust                      │
+   │ Fear                         │
+   │ Happy                        │
+   │ Sad                          │
+   │ Surprise                     │
+   │ Neutral                      │
+   └──────────────────────────────┘
+                    │
+                    ▼
+      Display Prediction Result
+    • Predicted Emotion
+    • Confidence Score
+    • Probability Graph
+                    │
+                    ▼
+     Emotion History & Analytics
+
+     🔍 Prediction Pipeline
+     Input Image
+      │
+      ▼
+Face Detection
+(OpenCV / MediaPipe)
+      │
+      ▼
+Face Extraction
+      │
+      ▼
+Image Preprocessing
+      │
+      ▼
+CNN Model Prediction
+      │
+      ▼
+Softmax Layer
+      │
+      ▼
+Emotion Label
+      │
+      ▼
+Confidence Score
+      │
+      ▼
+Visualization on Streamlit Dashboard
+
+Technologies Used
+Python 3.10+
+TensorFlow
+Keras
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Plotly
+Git
+GitHub
+Dataset
+FER2013 (Kaggle)
