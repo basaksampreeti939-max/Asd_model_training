@@ -10,4 +10,32 @@ Face Detection:
 
 Automatically detects and extracts the face from an uploaded image or live webcam feed using computer vision techniques.
 
+Facial Emotion Recognition
+
+Classifies facial expressions into seven universal emotions:
+
+Happy
+Sad
+Angry
+Fear
+Surprise
+Disgust
+Neutral
+
+AI-Based ASD Screening
+
+Analyzes facial expression patterns and estimates the likelihood of ASD-related emotional characteristics to support early screening.
+
+ Image Upload Support
+
+Allows users to upload facial images for analysis and prediction.
+
+Real-Time Webcam Analysis
+
+Performs live facial expression detection and emotion recognition using a webcam.
+
+## Class Diagram 
+
+The class diagram outlines the core classes in the system, their attributes and relationships between them.
+
 <img width="975" height="837" alt="Image" src="https://github.com/user-attachments/assets/41632615-5464-4d77-bea5-eec387f7f861" />
